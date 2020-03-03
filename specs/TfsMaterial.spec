@@ -120,6 +120,13 @@ Add resource "tfs" to an agent - Using Agents API
 * On Job details page of pipeline "basic-tfs-pipeline" counter "7" stage "defaultStage" counter "1" job "defaultJob"
 * Verify console log contains message "Cleaning working directory"
 
+* On Swift Dashboard Page
+* Looking at pipeline "basic-tfs-pipeline" - On Swift Dashboard page
+* Modify and checkin file "HelloWorld.txt" as "luser" with message "  *    With multiple space and markdown type styling **test** "
+* Trigger pipeline - On Swift Dashboard page
+* Wait till pipeline completed - On Swift Dashboard page
+* Verify stage "defaultStage" is "Passed" on pipeline with label "8" - On Swift Dashboard page
+
 
 
 
